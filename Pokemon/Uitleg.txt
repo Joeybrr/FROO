@@ -1,0 +1,13 @@
+Uitleg:
+
+1. Vind een API op google
+
+2. Bekijk hoe de API werkt
+
+3. Maak een Map met HTML en JS
+
+4. Sla de data op en fetch hem via een link in JS
+
+5. Check of je de data binnekrijgt met een .Then en een function
+
+6. Haal de echte data eruit

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Grid</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    <script type="module" src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="startTime()">
+    <main class="dashboard">
+        <section class="section--first">
+            <article class="card card--first">
+                <h2 class="card--datumTijd" id="js--time">
+                    
+                </h2>
+            </article>
+            <article class= "card card--second chart">
+                    <canvas data-type="doughnut">
+            </article>
+            <article class="card card--third chart">
+                <canvas data-type="pie"></canvas>
+            </article>
+            <article class="card card--stopwatch">
+                    <div>
+                        <span class="timertext" id="js--minutesTimer">0</span>
+                        <span class="timertext">:</span>
+                        <span class="timertext" id="js--secondsTimer">0</span>
+                    </div>
+                    <section class="buttonwrapper">
+                        <button class="button button--start" id="js--start">Start</button>
+                        <button class="button button--stop" id="js--stop">Stop</button>
+                        <button class="button button--reset" id="js--reset">Reset</button>
+                    </section>
+                    </article>
+            </article>
+        </section>
+        <section class="section--second">
+            <img id="js--pokemon-image" class="pokemonfoto" src="" alt="">
+            <img id="js--pokemon-image" class="pokemonfoto" src="" alt="">
+            <img id="js--pokemon-image" class="pokemonfoto" src="" alt="">
+            <img id="js--pokemon-image" class="pokemonfoto" src="" alt="">
+            <img id="js--pokemon-image" class="pokemonfoto" src="" alt="">
+            <img id="js--pokemon-image" class="pokemonfoto" src="" alt="">
+            <img id="js--pokemon-image" class="pokemonfoto" src="" alt="">
+            <img id="js--pokemon-image" class="pokemonfoto" src="" alt="">
+            <img id="js--pokemon-image" class="pokemonfoto" src="" alt="">
+            <img id="js--pokemon-image" class="pokemonfoto" src="" alt="">
+            <div>
+                <canvas id="js--chart--2"></canvas>
+              </div>
+    </main>
+    <p id="js--text" ></p>
+</body>
+</html>

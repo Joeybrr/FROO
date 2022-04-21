@@ -1,0 +1,23 @@
+
+
+
+er word een array gemaakt 
+const labels = [];
+
+
+
+In de data word de array opgehaalt.
+backgroundcolor is de kleur van de lein.
+label is voor de naam
+bordecolor is de kleur van de punten.
+
+In de config word de date opgehaald en word er gekeken in wat voor grafiek hij het moet zetten
+
+de grafiek word opgehaald met
+const myChart = new Chart(
+    document.getElementById('js--chart--1'),
+    config
+);
+
+
+

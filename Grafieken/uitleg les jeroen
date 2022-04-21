@@ -1,0 +1,3 @@
+De pokemon API kan maar 1 pokemon per keer ophalen.
+
+Hij past de grafiek pas aan na de heletijd een request te moeten doen hierdoor duurt het wat langer voordat die klaar is
